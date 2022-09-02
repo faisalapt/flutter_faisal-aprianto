@@ -1,0 +1,3 @@
+class Hewan {
+  var berat;
+}
