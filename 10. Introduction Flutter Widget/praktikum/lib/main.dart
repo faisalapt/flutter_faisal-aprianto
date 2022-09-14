@@ -33,11 +33,11 @@ class _MyAppState extends State<MyApp> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("$_hour", style: TextStyle(fontSize: 40),),
+                    Hour(),
                     Text(":",style: TextStyle(fontSize: 40),),
-                    Text("$_min",style: TextStyle(fontSize: 40),),
+                    Minute(),
                     Text(":",style: TextStyle(fontSize: 40),),
-                    Text("$_sec",style: TextStyle(fontSize: 40),)
+                    Second()
                   ],
                 ),
                 ElevatedButton(onPressed: () {
@@ -62,5 +62,17 @@ class _MyAppState extends State<MyApp> {
           )),
       ),
     );
+  }
+
+  Widget Hour(){
+    return Text("$_hour", style: TextStyle(fontSize: 40),);
+  }
+
+  Widget Minute(){
+    return Text("$_min",style: TextStyle(fontSize: 40),);
+  }
+
+  Widget Second(){
+    return Text("$_sec",style: TextStyle(fontSize: 40),);
   }
 }
