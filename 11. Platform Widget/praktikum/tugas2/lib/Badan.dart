@@ -36,7 +36,7 @@ class _BadanState extends State<Badan> {
         leading: Row(
           children: [
             Text(
-              "Edit",
+              "Edit", 
               style: TextStyle(color: CupertinoColors.activeBlue),
               ),
           ],

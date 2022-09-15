@@ -1,6 +1,6 @@
 import 'Matematika.dart';
 
-class KelipatanPersekutuanTerbesar extends Matematika{
+class KelipatanPersekutuanTerbesar implements Matematika{
   int x = 0;
   int y = 0;
 
